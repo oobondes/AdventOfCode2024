@@ -40,6 +40,13 @@ class AOC:
         else:
             print("try again...")
 
+    def get_leaderboards(self, group_id):
+        headers = {"user-agent": "github.com/oobondes"}
+        s = requests.Session()
+        cookie = {"session": self.token}
+        url = f"https://adventofcode.com/{self.year}/leaderboard/private/view/{group_id}.json"
+        text =  s.get(url, cookies=cookie).content
+        return text
 
     def get_all_inputs(self):
         """get all input files for a given year and write them to a file"""
