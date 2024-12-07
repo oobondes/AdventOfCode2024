@@ -34,9 +34,10 @@ class AOC:
         submit_answer_url = f"https://adventofcode.com/{self.year}/day/{day}/answer"
         data = {"level": str(part), "answer": ans}
         resp = s.post(submit_answer_url.format(day), data=data, cookies=cookie)
-        print(resp.text)
         if "day-success" in resp.text:
             print("success!")
+        elif "Did you already complete it?" in resp.text:
+            print(f"you have already completed day {day} of {self.year}")
         else:
             print("try again...")
 

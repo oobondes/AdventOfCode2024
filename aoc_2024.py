@@ -51,8 +51,7 @@ if 1 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 1 part 2 not complete")
 
@@ -64,8 +63,7 @@ if 2 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 2 part 1 not complete")
 
@@ -77,8 +75,7 @@ if 2 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 2 part 2 not complete")
 
@@ -90,8 +87,7 @@ if 3 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 3 part 1 not complete")
 
@@ -103,8 +99,7 @@ if 3 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 3 part 2 not complete")
 
@@ -116,8 +111,7 @@ if 4 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 4 part 1 not complete")
 
@@ -129,8 +123,7 @@ if 4 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 4 part 2 not complete")
 
@@ -142,8 +135,7 @@ if 5 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 5 part 1 not complete")
 
@@ -155,8 +147,7 @@ if 5 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 5 part 2 not complete")
 
@@ -168,8 +159,7 @@ if 6 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 6 part 1 not complete")
 
@@ -181,8 +171,7 @@ if 6 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 6 part 2 not complete")
 
@@ -194,8 +183,7 @@ if 7 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 7 part 1 not complete")
 
@@ -207,8 +195,7 @@ if 7 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 7 part 2 not complete")
 
@@ -220,8 +207,7 @@ if 8 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 8 part 1 not complete")
 
@@ -233,8 +219,7 @@ if 8 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 8 part 2 not complete")
 
@@ -246,8 +231,7 @@ if 9 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 9 part 1 not complete")
 
@@ -259,8 +243,7 @@ if 9 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 9 part 2 not complete")
 
@@ -272,8 +255,7 @@ if 10 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 10 part 1 not complete")
 
@@ -285,8 +267,7 @@ if 10 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 10 part 2 not complete")
 
@@ -298,8 +279,7 @@ if 11 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 11 part 1 not complete")
 
@@ -311,8 +291,7 @@ if 11 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 11 part 2 not complete")
 
@@ -324,8 +303,7 @@ if 12 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 12 part 1 not complete")
 
@@ -337,8 +315,7 @@ if 12 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 12 part 2 not complete")
 
@@ -350,8 +327,7 @@ if 13 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 13 part 1 not complete")
 
@@ -363,8 +339,7 @@ if 13 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 13 part 2 not complete")
 
@@ -376,8 +351,7 @@ if 14 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 14 part 1 not complete")
 
@@ -389,8 +363,7 @@ if 14 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 14 part 2 not complete")
 
@@ -402,8 +375,7 @@ if 15 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 15 part 1 not complete")
 
@@ -415,8 +387,7 @@ if 15 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 15 part 2 not complete")
 
@@ -428,8 +399,7 @@ if 16 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 16 part 1 not complete")
 
@@ -441,8 +411,7 @@ if 16 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 16 part 2 not complete")
 
@@ -454,8 +423,7 @@ if 17 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 17 part 1 not complete")
 
@@ -467,8 +435,7 @@ if 17 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 17 part 2 not complete")
 
@@ -480,8 +447,7 @@ if 18 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 18 part 1 not complete")
 
@@ -493,8 +459,7 @@ if 18 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 18 part 2 not complete")
 
@@ -506,8 +471,7 @@ if 19 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 19 part 1 not complete")
 
@@ -519,8 +483,7 @@ if 19 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 19 part 2 not complete")
 
@@ -532,8 +495,7 @@ if 20 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 20 part 1 not complete")
 
@@ -545,8 +507,7 @@ if 20 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 20 part 2 not complete")
 
@@ -558,8 +519,7 @@ if 21 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 21 part 1 not complete")
 
@@ -571,8 +531,7 @@ if 21 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 21 part 2 not complete")
 
@@ -584,8 +543,7 @@ if 22 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 22 part 1 not complete")
 
@@ -597,8 +555,7 @@ if 22 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 22 part 2 not complete")
 
@@ -610,8 +567,7 @@ if 23 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 23 part 1 not complete")
 
@@ -623,8 +579,7 @@ if 23 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 23 part 2 not complete")
 
@@ -637,8 +592,7 @@ if 24 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 24 part 1 not complete")
 
@@ -650,8 +604,7 @@ if 24 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 24 part 2 not complete")
 
@@ -664,8 +617,7 @@ if 25 in args.day and args.part_one:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 1, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 25 part 1 not complete")
 
@@ -677,8 +629,7 @@ if 25 in args.day and args.part_two:
     if not ans is None:
         if args.submit:
             print(aoc.submit_input(day, 2, ans))
-        else:
-            print(ans)
+        print(ans)
     else:
         print("day 25 part 2 not complete")
 
