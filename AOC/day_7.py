@@ -6,7 +6,7 @@ def solve(total: int, calibration: int, nums: list[int]):
     """recursively find if any combination of addition and multiplication of the list can procude total"""
     if not nums and total == calibration:
         return total
-    if not nums:
+    if not nums or calibration > total:
         return
     if add := solve(total, calibration + nums[0], nums[1:]):
         return add
@@ -19,7 +19,7 @@ def solve2(total: int, calibration: int, nums: list[int]):
     """recursively find if any combination of addition, multiplication, and concatination of the list can procude total"""
     if not nums and total == calibration:
         return total
-    if not nums:
+    if not nums or calibration > total:
         return
     if pipe := solve2(total, int(f"{calibration}{nums[0]}"), nums[1:]):
         return pipe
