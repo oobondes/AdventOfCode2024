@@ -28,7 +28,6 @@ def word_search(grid: list, word: str, x: int, y: int):
                 if grid[next_y][next_x] != word[idx] or 0 > next_x or 0 > next_y:
                     break
             else:
-                print(f"{x=},{y=} - {next_x*idx + x},{next_y*idx + y}")
                 total += 1
         except IndexError:
             continue
