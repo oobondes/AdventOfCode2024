@@ -29,8 +29,6 @@ if not args.part_two:
 
 aoc = AOC(2024)
 
-print(args)
-
 if 1 in args.day and args.part_one:
     day = 1
     from AOC.day_1 import part_1_day_1

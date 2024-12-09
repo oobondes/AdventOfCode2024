@@ -1,9 +1,5 @@
 #! /usr/bin/env python3
 #solution for https://adventofcode.com/2024/day/6
-# 2080 is too high
-# not 2007
-#TODO: 1930 is too low for gmail account
-from pprint import pprint
 
 turns = {(0,-1):(1,0), (1,0):(0,1), (0,1):(-1,0), (-1,0):(0,-1)}
 
