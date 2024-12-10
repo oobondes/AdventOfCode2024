@@ -16,7 +16,7 @@ BEGIN {
         n=split($3, day_part, "-")
 	idx = $3
 	sub("-", ",", idx)
-        printf("|complete|(%s-%s)[/AOC/day_%s.py#L%s]|%s|\n", day_part[1], day_part[2], day_part[1], line_number[idx], $4)
+        printf("|complete|[%s-%s](/AOC/day_%s.py#L%s)|%s|\n", day_part[1], day_part[2], day_part[1], line_number[idx], $4)
     }
 }
 

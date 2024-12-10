@@ -2,26 +2,26 @@
 ------
 |status|day|time to complete|
 |:-|:-|:-|
-|complete|(1-1)[/AOC/day_1.py#L3]|0:00.70|
-|complete|(1-2)[/AOC/day_1.py#L9]|0:00.22|
-|complete|(2-1)[/AOC/day_2.py#L16]|0:00.25|
-|complete|(2-2)[/AOC/day_2.py#L21]|0:00.31|
-|complete|(3-1)[/AOC/day_3.py#L4]|0:00.23|
-|complete|(3-2)[/AOC/day_3.py#L7]|0:00.22|
-|complete|(4-1)[/AOC/day_4.py#L37]|0:00.41|
-|complete|(4-2)[/AOC/day_4.py#L46]|0:00.22|
-|complete|(5-1)[/AOC/day_5.py#L25]|0:00.42|
-|complete|(5-2)[/AOC/day_5.py#L39]|0:00.49|
-|complete|(6-1)[/AOC/day_6.py#L9]|0:00.23|
-|complete|(6-2)[/AOC/day_6.py#L47]|0:19.33|
-|complete|(7-1)[/AOC/day_7.py#L33]|0:00.48|
-|complete|(7-2)[/AOC/day_7.py#L43]|0:09.65|
-|complete|(8-1)[/AOC/day_8.py#L5]|0:00.21|
-|complete|(8-2)[/AOC/day_8.py#L28]|0:00.19|
-|complete|(9-1)[/AOC/day_9.py#L7]|0:10.84|
-|complete|(9-2)[/AOC/day_9.py#L50]|0:11.76|
-|complete|(10-1)[/AOC/day_10.py#L15]|0:00.31|
-|complete|(10-2)[/AOC/day_10.py#L25]|0:00.20|
+|complete|[1-1](/AOC/day_1.py#L3)|0:00.50|
+|complete|[1-2](/AOC/day_1.py#L9)|0:00.22|
+|complete|[2-1](/AOC/day_2.py#L16)|0:00.22|
+|complete|[2-2](/AOC/day_2.py#L21)|0:00.21|
+|complete|[3-1](/AOC/day_3.py#L4)|0:00.32|
+|complete|[3-2](/AOC/day_3.py#L7)|0:00.18|
+|complete|[4-1](/AOC/day_4.py#L37)|0:00.26|
+|complete|[4-2](/AOC/day_4.py#L46)|0:00.19|
+|complete|[5-1](/AOC/day_5.py#L25)|0:00.30|
+|complete|[5-2](/AOC/day_5.py#L39)|0:00.37|
+|complete|[6-1](/AOC/day_6.py#L9)|0:00.31|
+|complete|[6-2](/AOC/day_6.py#L47)|0:17.76|
+|complete|[7-1](/AOC/day_7.py#L33)|0:00.38|
+|complete|[7-2](/AOC/day_7.py#L43)|0:09.69|
+|complete|[8-1](/AOC/day_8.py#L5)|0:00.30|
+|complete|[8-2](/AOC/day_8.py#L28)|0:00.19|
+|complete|[9-1](/AOC/day_9.py#L7)|0:11.09|
+|complete|[9-2](/AOC/day_9.py#L50)|0:11.10|
+|complete|[10-1](/AOC/day_10.py#L15)|0:00.31|
+|complete|[10-2](/AOC/day_10.py#L25)|0:00.20|
 |not complete|11-1|NA|
 |not complete|11-2|NA|
 |not complete|12-1|NA|
