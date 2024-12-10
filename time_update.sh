@@ -18,7 +18,6 @@ do
     readme "|$(/usr/bin/time -f "|$day-2|%E|" ./aoc_2024.py $day -2 -o 2>&1 )"
 done
 
-# mark incomplete days as "not complete"
-sed -i  "s/^|day [0-9]* part [12]* not complete |\([^|]*\)|\([^|]*\)|$/|not complete|\1|NA|/" README.md
-# mark complete days as "complete" and create a link to the solution
-sed -i  "s/^|[^n][^|]*|\([0-9]*\)-\([12]\)|\([0-9\.:]*\)|$/|complete|[\1-\2](AOC\/day_\1.py)|\3|/" README.md
+exit 0
+
+./fix_read_me.awk README.md
