@@ -19,6 +19,7 @@ BEGIN {
         printf("|complete|(%s-%s)[/AOC/day_%s.py#L%s]|%s|\n", day_part[1], day_part[2], day_part[1], line_number[idx], $4)
     }
 }
+
 /^def part_[12]_day_[0-9]/ {
 	sub("def part_", "", $0)
 	#TODO: fix this. the two lines are a stop gap for space vs no space

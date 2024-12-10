@@ -8,12 +8,12 @@ readme () { echo -e $@ >> .README.md; }
 echo "# Advent Of Code 2024" > README.md
 echo "------" >> README.md
 
+
+echo "|status|day|time to complete|" >> README.md
+echo  "|:-|:-|:-|" >> README.md
+
+
 readme
-
-readme "|status|day|time to complete|"
-readme "|:-|:-|:-|"
-
-
 for day in {1..25};
 do
     readme "|$(/usr/bin/time -f "|$day-1|%E|" ./aoc_2024.py $day -1 -o 2>&1 )"
@@ -22,3 +22,4 @@ done
 
 
 ./fix_read_me.awk AOC/*.py .README.md >> README.md
+rm .README.md
