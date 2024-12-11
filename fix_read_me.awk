@@ -21,10 +21,11 @@ BEGIN {
 }
 
 /^def part_[12]_day_[0-9]/ {
-	sub("def part_", "", $0)
-	#TODO: fix this. the two lines are a stop gap for space vs no space
-	sub("\(text:str\):", "", $0)
-	sub("\(text: str\):", "", $0)
-	split($0, day_part, "_day_")
-	line_number[sprintf("%s,%s",day_part[2],day_part[1])] = FNR
+    # make key "day,part" and set that key to the line number
+    key = $0
+    sub(/_day_/, ",", key)
+    gsub(/[^0-9,]/, "", key)
+    split(key, part_day, ",")
+    key=sprintf("%s,%s", part_day[2], part_day[1])
+	line_number[key] = FNR
 }
