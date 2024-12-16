@@ -33,8 +33,8 @@ elif len(argv) == 4 and argv[1].lower() in ("--board", "-b"):
     data = loads(data)
     for member, member_data in sorted( data["members"].items(), key=lambda x: (x[1].get("local_score"), x[0]), reverse=True,):
         name = member_data.get("name", member) or member
-        print(f"{name} ({member_data.get('local_score')})")
-        for day, day_data in sorted(member_data["completion_day_level"].items(), key=lambda x: x[0]):
+        print(f"{name} {member_data['stars']}🌟 ({member_data.get('local_score')})")
+        for day, day_data in sorted(member_data["completion_day_level"].items(), key=lambda x: int(x[0])):
             part_1_time = datetime.fromtimestamp(int(day_data.get("1", {}).get("get_star_ts", 0xFFFFFFFF)))
             part_2_time = day_data.get("2", {}).get("get_star_ts")
             time_to_complete = None
