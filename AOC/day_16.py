@@ -113,6 +113,5 @@ def part_2_day_16(text:str):
             if new_score <= cost_grid[next_y][next_x] + 1000 and (next_x, next_y) not in visited:
                 cost_grid[next_y][next_x] = new_score
                 q.put((new_score, (next_x, next_y), next_direction, visited))
-            else:
     return len(good_seats)
 
