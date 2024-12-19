@@ -4,6 +4,7 @@
 #this is not right
 #5,5,3,6,4,2,7,0,2
 
+from time import sleep
 from math import trunc
 class three_bit:
     def __init__(self, A, B, C, instructions):
@@ -33,14 +34,14 @@ class three_bit:
 
     def r_adv(self, operand):
         operand = self.combo(operand)
-        temp = (2**operand) * self.A
+        self.A = (2**operand) * self.A
 
-        if operand == 4:
-            self.A = temp
-        elif operand == 5:
-            self.B = temp
-        elif operand == 6:
-            self.C = temp
+        #if operand == 4:
+            #self.A = temp
+        #elif operand == 5:
+            #self.B = temp
+        #elif operand == 6:
+            #self.C = temp
         self.idx -= 2
 
     def bxl(self, operand):
@@ -57,12 +58,7 @@ class three_bit:
         self.idx += 2
 
     def r_bst(self, operand):
-        if operand == 4:
-            self.A = operand
-        elif operand == 6:
-            self.C = operand
-        else:
-            self.B = operand
+        #TODO:
         self.idx -= 2
 
     def jnz(self, operand):
@@ -92,11 +88,13 @@ class three_bit:
 
     def r_out(self, operand):
         if operand == 4:
-            self.A = self.expected.pop(-1)
+            self.A += self.expected.pop(-1)
         elif operand == 5:
             self.B = self.expected.pop(-1)
         elif operand == 6:
             self.C = self.expected.pop(-1)
+        else:
+            self.expected.pop(-1)
         self.idx -= 2
 
     def bdv(self, operand):
@@ -105,6 +103,7 @@ class three_bit:
         self.idx += 2
 
     def r_bdv(self, operand):
+        operand = self.combo(operand)
         temp = (2**operand) * self.B
 
         if operand == 4:
@@ -121,6 +120,7 @@ class three_bit:
         self.idx += 2
 
     def r_cdv(self, operand):
+        operand = self.combo(operand)
         temp = (2**operand) * self.C
 
         if operand == 4:
@@ -158,12 +158,11 @@ class three_bit:
 
     def solve(self):
         self.idx = len(self.instructions) - 2
-        self.A = 1
+        self.A = 0
         while self.expected:
             if self.idx < 0:
                 self.idx = len(self.instructions) - 2
             print(self)
-            print(self.expected)
             operation, operand = self.instructions[self.idx:self.idx+2]
 
             if operation == 0:
@@ -202,21 +201,20 @@ def part_2_day_17(text:str):
     registers = list(int(line.split(': ')[-1]) for line in registers.split('\n'))
     instructions = list(map(int, code.split(': ')[1].strip().split(',')))
     cpu = three_bit(*registers, instructions)
-    instructions = ','.join(map(str,instructions))
-    iteration = 0
-    # while True:
-        # if not iteration% 1000:
-            # print(iteration)
-        # iteration += 1
-        # cpu.A = iteration
-        # cpu.B = registers[1]
-        # cpu.C = registers[2]
-        # cpu.idx = 0
-        # cpu.output = ""
-        # output = cpu.run()
-        # if output == instructions:
-            # break
-    ans = cpu.solve()
-    print(cpu)
-    return ans
+
+    power = len(instructions)-1
+    iteration = 8**power
+    while power >= 0:
+        cpu.A = iteration
+        cpu.B = registers[1]
+        cpu.C = registers[2]
+        cpu.idx = 0
+        cpu.output = ""
+        output = list(map(int,cpu.run().split(',')))
+        if output == instructions:
+            break
+        if power and output[power] == instructions[power]:
+            power  -= 1
+        iteration += 8**power
+    return iteration
 
